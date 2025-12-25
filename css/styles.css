@@ -30,7 +30,7 @@ a {
 }
 
 /* -------------------------------------------------- */
-/* HEADER
+/* HEADER */
 /* -------------------------------------------------- */
 .cabecera-principal {
     background: linear-gradient(135deg, #0b3d91 0%, #1a5cff 100%);
@@ -38,7 +38,7 @@ a {
     padding: 0.8rem 0;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     position: relative;
-    z-index: 10; /* Asegura que el header esté por encima de otros elementos */
+    z-index: 10;
     text-align: center;
 }
 
@@ -52,14 +52,11 @@ a {
 .cabecera-principal h1 {
     font-size: 1.4rem;
     font-weight: 700;
-    margin-bottom: 0.3rem;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
     line-height: 1.2;
 }
 
-/* -------------------------------------------------- */
-/* NAVEGACIÓN 
-/* -------------------------------------------------- */
 .navegacion {
     list-style: none;
     display: flex;
@@ -73,7 +70,7 @@ a {
 .navegacion a {
     color: rgba(255, 255, 255, 0.9);
     padding: 0.3rem 0.8rem;
-    border-radius: 20px; 
+    border-radius: 20px;
     font-size: 0.9rem;
     font-weight: 500;
     transition: all 0.3s ease;
@@ -90,7 +87,7 @@ a {
     background: #fff;
     color: #0b3d91;
     font-weight: bold;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .contenedor-tarjetas {
@@ -134,7 +131,7 @@ button:hover, .boton-enviar:hover {
 }
 
 /* -------------------------------------------------- */
-/* FOOTER
+/* FOOTER */
 /* -------------------------------------------------- */
 .pie-pagina {
     background: #222;
@@ -146,13 +143,13 @@ button:hover, .boton-enviar:hover {
 }
 
 /* -------------------------------------------------- */
-/* RESPONSIVE
+/* RESPONSIVE */
 /* -------------------------------------------------- */
 @media (max-width: 600px) {
     .cabecera-principal h1 {
         font-size: 1.2rem;
     }
-    
+
     .navegacion {
         gap: 0.5rem;
     }
