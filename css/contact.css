@@ -1,0 +1,111 @@
+.formulario-contacto {
+    max-width: 750px; 
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fcfcfc;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.grupo-formulario {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0;
+}
+
+.campo-formulario {
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+.mitad {
+    flex: 1;
+}
+
+.campo-formulario label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #333;
+    font-size: 0.95rem;
+}
+
+.campo-formulario input[type="text"],
+.campo-formulario input[type="email"],
+.campo-formulario input[type="date"],
+.campo-formulario textarea,
+.selector-asunto {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: all 0.3s ease;
+    background-color: #fff;
+    color: #333;
+}
+
+.campo-formulario input[type="file"] {
+    background-color: #fff;
+    padding: 0.5rem;
+    border: 1px dashed #ccc;
+    cursor: pointer;
+}
+
+.campo-formulario input:focus,
+.campo-formulario textarea:focus,
+.selector-asunto:focus {
+    border-color: #0b3d91;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(11, 61, 145, 0.1);
+}
+
+.campo-check {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.campo-check input {
+    margin-top: 0.25rem;
+    cursor: pointer;
+}
+
+.campo-check label {
+    cursor: pointer;
+}
+
+.boton-enviar {
+    width: 100%;
+    background-color: #0b3d91;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.boton-enviar:hover {
+    background-color: #092a66;
+}
+
+.boton-enviar:active {
+    transform: scale(0.98);
+}
+
+@media (max-width: 600px) {
+    .grupo-formulario {
+        flex-direction: column;
+    }
+    .formulario-contacto {
+        padding: 1rem;
+    }
+}
