@@ -1,0 +1,102 @@
+.contenedor-imagenes {
+    display: flex;
+    gap: 1.5rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-perfil {
+    height: 200px;      
+    width: auto;       
+    max-width: 100%;
+    border-radius: 8px;
+    background: #fff;
+    padding: 0.5rem;
+    border: 1px solid #ddd; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.imagen-perfil:hover {
+    transform: scale(1.02);
+}
+
+.contenido-bio {
+    line-height: 1.8; 
+    color: #444;
+    font-size: 1.05rem;
+    margin-bottom: 2rem;
+}
+
+.contenido-bio strong {
+    color: #0b3d91;
+}
+
+.enlace-portfolio-grande {
+    color: #d32f2f; 
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block;
+    transition: transform 0.2s ease;
+    padding: 0.5rem 0;
+}
+
+.enlace-portfolio-grande:hover {
+    transform: translateX(10px);
+    color: #b71c1c;
+}
+
+.contenedor-social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    align-items: center;
+}
+
+.enlace-social {
+    display: inline-flex; 
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.7rem 1.5rem;
+    border-radius: 50px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    color: #333;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.enlace-social:hover {
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
+    transform: translateY(-3px);
+    border-color: #ccc;
+}
+
+.icono-social {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px; 
+    object-fit: contain;
+}
+
+.linkedin:hover { color: #0077b5; border-color: #0077b5; }
+.github:hover { color: #333; border-color: #333; }
+
+@media (max-width: 600px) {
+    .imagen-perfil {
+        height: auto;     
+        width: 100%;      
+        max-width: 300px; 
+    }
+    
+    .contenedor-imagenes {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,87 @@
+.boton-volver {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    color: #666;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.boton-volver:hover {
+    color: #0b3d91;
+    text-decoration: underline;
+}
+
+.encabezado-asignatura {
+    margin-bottom: 1rem;
+}
+
+.etiqueta-ects {
+    display: inline-block;
+    background: #eef4ff;
+    color: #0b3d91;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.separador {
+    margin: 2rem 0;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.lista-objetivos li {
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    border-left: 3px solid #ddd;
+}
+
+.contenedor-temario {
+    margin-top: 2rem;
+}
+
+.temario dt {
+    font-weight: 700;
+    color: #0b3d91;
+    margin-top: 1rem;
+    font-size: 1.05rem;
+}
+
+.temario dd {
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+    color: #444;
+    padding-left: 1rem;
+    border-left: 2px solid #f0f0f0;
+}
+
+.caja-evaluacion {
+    margin-top: 2rem;
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+.caja-evaluacion h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.caja-evaluacion ul {
+    list-style: none;
+    padding: 0;
+}
+
+.caja-evaluacion li {
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed #e0e0e0;
+    padding-bottom: 0.25rem;
+}
