@@ -7,14 +7,16 @@ Aquí está el código fuente de mi página web para la asignatura de Fundamento
 
 ## Descripción del Proyecto
 
-Es una web personal enfocada en la estructura semántica y el diseño responsive (que se vea bien en móviles). Como ya vengo de un Grado Superior y tengo experiencia programando, he aprovechado esta práctica para centrarme en perfeccionar la arquitectura del código y seguir al pie de la letra las normas de la entrega, más que en aprender las etiquetas básicas.
+Este proyecto consiste en la implementación de una web desarrollada bajo los estándares de HTML5 y CSS. Más allá de la maquetación visual, el desarrollo se ha abordado como un proyecto de software, priorizando una arquitectura de archivos limpia.
 
-### Tecnologías utilizadas 🛠️
+El sitio web se estructura separando estrictamente el contenido (HTML en carpeta public) de la presentación (hojas de estilo en css), implementando una metodología de estilos en cascada que combina reglas globales con archivos específicos para cada sección. El resultado es una aplicación web estática, robusta y responsive, que cumple rigurosamente con los requisitos de versionado y organización exigidos en la asignatura de Fundamentos de la Ingeniería Informática.
+
+### Tecnologías utilizadas 
 - **HTML5:** Para una estructura correcta y semántica.
-- **CSS3:** Para los estilos y el diseño responsive. He consultado documentación y recursos online para afinar detalles como el Modo Oscuro.
+- **CSS3:** He implementado una arquitectura de estilos. Utilizando un archivo `styles.css` para los estilos globales (comunes a toda la web) y **archivos CSS específicos para cada página HTML** (por ejemplo, `about.css`, `topic.css`), lo que facilita el mantenimiento y la especificidad del diseño.
 - **Git & GitHub:** Para el control de versiones y subir la web.
 
-### Estructura de Páginas 📄
+### Estructura de Páginas 
 
 He organizado la web en estas secciones:
 
