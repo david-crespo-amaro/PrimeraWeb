@@ -14,7 +14,7 @@ body {
     color: #333;
     background-color: #f7f7f7;
     display: flex;
-    flex-direction: column; /* Mantiene el footer abajo */
+    flex-direction: column;
 }
 
 a {
@@ -29,9 +29,6 @@ a {
     width: 100%;
 }
 
-/* -------------------------------------------------- */
-/* HEADER */
-/* -------------------------------------------------- */
 .cabecera-principal {
     background: linear-gradient(135deg, #0b3d91 0%, #1a5cff 100%);
     color: #fff;
@@ -114,7 +111,7 @@ a {
     margin-bottom: 0.5rem;
 }
 
-button, .boton-enviar {
+button {
     background-color: #0b3d91;
     color: white;
     padding: 0.9rem;
@@ -126,13 +123,10 @@ button, .boton-enviar {
     transition: background-color 0.3s;
 }
 
-button:hover, .boton-enviar:hover {
+button:hover {
     background-color: #092a66;
 }
 
-/* -------------------------------------------------- */
-/* FOOTER */
-/* -------------------------------------------------- */
 .pie-pagina {
     background: #222;
     color: #ddd;
@@ -142,14 +136,10 @@ button:hover, .boton-enviar:hover {
     font-size: 0.9rem;
 }
 
-/* -------------------------------------------------- */
-/* RESPONSIVE */
-/* -------------------------------------------------- */
 @media (max-width: 600px) {
     .cabecera-principal h1 {
         font-size: 1.2rem;
     }
-
     .navegacion {
         gap: 0.5rem;
     }
